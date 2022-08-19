@@ -3,7 +3,6 @@ atomicwrites==1.4.1
 attrs==21.2.0
 bcrypt==3.1.7
 blinker==1.5
-certifi==2019.11.28
 cffi==1.15.1
 chardet==5.0.0
 charset-normalizer==2.1.0
@@ -62,8 +61,6 @@ pytz==2022.2.1
 pyxdg==0.28
 PyYAML==6.0
 reportlab==3.6.11
-requests==2.28.1
-requests-unixsocket==0.3.0
 SecretStorage==3.3.3
 selenium==4.4.3
 simplejson==3.17.6
