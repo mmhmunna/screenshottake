@@ -1,1 +1,1 @@
-web:python Screenshot.py
+web:python main.py
