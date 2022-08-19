@@ -24,7 +24,6 @@ httplib2==0.20.4
 idna==3.3
 importlib-metadata==4.12.0
 iniconfig==1.1.1
-jeepney==0.8.0
 keyring==18.0.1
 lazr.uri==1.0.3
 lockfile==0.12.2
