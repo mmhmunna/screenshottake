@@ -10,10 +10,11 @@ chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-dev-shm-usage")
 chrome_options.add_argument("--no-sandbox")
 driver = webdriver.Chrome("CHROMEDRIVER_PATH", options=chrome_options)
+driver.get("https://codecanyon.net/user/softnio/portfolio")
 '''options = Options()
 options.headless = True
 driver = webdriver.Chrome('driver/chromedriver',chrome_options=options)'''
-file = open('urllist.txt', 'r')
+'''file = open('urllist.txt', 'r')
 file_content = file.readline()
 file_content_list = file_content.split(',')
 size_of_content = len(file_content_list)
@@ -26,6 +27,6 @@ for number in range (size_of_content):
     image_file_name = title + '_' + current_datetime + ".png"
     S = lambda X: driver.execute_script('return document.body.parentNode.scroll'+X)
     driver.set_window_size(S('Width'),S('Height')) 
-    driver.find_element_by_tag_name('body').screenshot(("Images" + '/'+image_file_name + '.png'))
+    driver.find_element_by_tag_name('body').screenshot(("Images" + '/'+image_file_name + '.png'))'''
 
-print("Please check Images Folder")
+print(driver.title)
